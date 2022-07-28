@@ -3,7 +3,7 @@ const connectToMongo = require('./db');
 const multer = require('multer');
 var forms = multer();
 const app = express();
-const port = process.env.port || 8081;
+const port = process.env.PORT || 8081;
 
 connectToMongo();
 
